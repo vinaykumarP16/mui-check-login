@@ -3,12 +3,8 @@ import * as React from 'react';
 import './style.css';
 
 export default function App() {
-  const [email, setEmail] = React.useState('');
-  const [password, setPassword] = React.useState('');
-
-  const handleChange = () => {
-    //dummy here
-  };
+  const [email, setEmail] = React.useState('vinay@text.com');
+  const [password, setPassword] = React.useState('vinay#123');
 
   const sendValue = () => {
     console.log('check email', email);
